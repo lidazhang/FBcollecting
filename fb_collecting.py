@@ -68,7 +68,7 @@ def main(ACCESS_TOKEN):
 
 
 if __name__ == '__main__':
-    ACCESS_TOKEN = raw_input("Please enter your client (app) ID: ")
+    ACCESS_TOKEN = raw_input("Please enter your access_token: ")
     main(ACCESS_TOKEN)
     # get your token from https://developers.facebook.com
     
