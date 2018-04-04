@@ -62,7 +62,7 @@ def main(ACCESS_TOKEN):
     hsbc = collectComment(feeds,g)
 
 
-    with open('lidadata.json', 'w') as outfile:  
+    with open('fbhsbc.json', 'w') as outfile:  
         json.dump(hsbc, outfile)
 
 
